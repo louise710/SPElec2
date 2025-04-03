@@ -1,5 +1,5 @@
 <?php
-class User
+class User extends Authenticatable implements JWTSubject
 {
     public function getJWTIdentifier()
     {
