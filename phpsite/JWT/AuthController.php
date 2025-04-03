@@ -1,5 +1,5 @@
 <?php
-public function register(Request $request)
+public function register(Request $request) 
 {
     $validatedData = $request->validate([
         'name' => 'required|string|max:255',
